@@ -18,9 +18,14 @@ function NavigationBar() {
 
             <ul className = "menu">
                 <Link style = {navStyle} to = "/">
-                    <li><a href = "#">Home</a></li>
+                    <li><a href = "/">Home</a></li>
                 </Link>
-                
+                <Link style = {navStyle} to = "/projects">
+                    <li><a href = "/">Projects</a></li>
+                </Link>
+                <Link style = {navStyle} to = "/experiences">
+                    <li><a href = "/">Experiences</a></li>
+                </Link>
             </ul>
 
             <a href = "/" class = "hey">Kevin Arellano</a>

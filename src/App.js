@@ -1,36 +1,30 @@
-//import logo from './logo.svg';
 import './App.css';
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import NavigationBar from "./components/NavBar";
+
+// Pages
 import Home from "./Pages/Home";
-//import About from "./Pages/About";
-//import Resume from "./Pages/Resume"
+import Projects from "./Pages/Projects";
+import Experiences from "./Pages/Experiences/index.js";
+import PageNotFound from "./Pages/PageNotFound";
 
-import pdf_Resume from "./components/Arellano Kevin - Resume.pdf"
-
-function App() {
+function App()
+{
   return (
     <div className="App">
-      <header>
+      
         <Router>
-          <NavigationBar />
-          
-          <Switch>
-            <Route path = "/" exact component = {Home} />
+            <NavigationBar />
             
-            
-          </Switch>
-        </Router>
-      </header>
-
-      <body>
-        
-      </body>
-
-      <footer>
-        
-      </footer>
+            <Switch>
+              <Route path = "/" exact component = {Home} />
+              <Route path = "/projects" component = {Projects} />
+              <Route path = "/experiences" component = {Experiences} />
+              <Route component = {PageNotFound} />
+            </Switch>
+          </Router>
+      
     </div>
   );
 }
