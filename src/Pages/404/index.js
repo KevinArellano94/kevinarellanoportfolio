@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 
-function Home() {
+function PageNotFound() {
     return (
       <div className="content">
         <div className = "main-text">
@@ -8,7 +8,7 @@ function Home() {
 
           <div class = "flex-container">
             <Link to = "/">
-              <a href = "#" target = "_blank" class = "portfolio-btn">Go back to Home</a>
+              <a href = "/" target = "_blank" class = "portfolio-btn">Go back to Home</a>
             </Link>
           </div>
         </div>
@@ -16,4 +16,4 @@ function Home() {
     );
   }
   
-  export default Home;
+  export default PageNotFound ;

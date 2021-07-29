@@ -1,18 +1,11 @@
-// Routing
+import './App.css';
+
 import {
   BrowserRouter as Router,
   Switch,
   Route
 } from "react-router-dom";
-
-// Styling
-import './App.css';
-
-// Navigation
-import NavigationBar from "./Components/Navigation/index.js";
-
-// Footer
-import Footer from "./Components/Footer/index.js"
+import NavigationBar from "./Components/NavBar";
 
 // Pages
 import Home from "./Pages/Home/index.js";
@@ -22,16 +15,18 @@ import PageNotFound from "./Pages/404/index.js";
 function App()
 {
   return (
-    <div>
+    <div className="App">
+      
         <Router>
             <NavigationBar />
             
             <Switch>
               <Route path = "/" exact component = {Home} />
+              <Route path = "/experiences" component = {Experiences} />
               <Route component = {PageNotFound} />
             </Switch>
-
-          </Router>    
+          </Router>
+      
     </div>
   );
 }
