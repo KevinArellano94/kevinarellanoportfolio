@@ -28,10 +28,12 @@ function App()
             
             <Switch>
               <Route path = "/" exact component = {Home} />
+              <Route path = "/experiences" component = {Experiences} />
               <Route component = {PageNotFound} />
             </Switch>
 
-          </Router>    
+            <Footer />
+          </Router>
     </div>
   );
 }

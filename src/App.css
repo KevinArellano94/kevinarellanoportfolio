@@ -89,6 +89,18 @@ nav ul li a:hover
   transform: translate(-50%,-50%);
 }
 
+.footer
+{
+  width:100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  top: 97%;
+  transform: translate(-50%,-50%);
+}
+
 .main-text
 {
   width:75%;
@@ -123,21 +135,6 @@ nav ul li a:hover
 {
   background-color: #23cdaf;
   transition: all ease 0.2s;
-}
-
-footer
-{
-  display:flex;
-  justify-content: space-around;
-  border-top: 1px solid rgba(232,232,232,0.5);
-  background-color:#FFFFFF;
-}
-
-footer p
-{
-  margin:15px 0px;
-  color:#5f5f5f;
-  font-size: 0.9rem;
 }
 
 nav .menu-btn,

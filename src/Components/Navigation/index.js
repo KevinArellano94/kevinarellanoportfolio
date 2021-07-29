@@ -21,6 +21,11 @@ function NavigationBar()
                         <a href = "/">Home</a>
                     </li>
                 </Link>
+                <Link to = "/experiences">
+                    <li>
+                        <a href = "/">Experiences</a>
+                    </li>
+                </Link>
             </ul>
 
             <a href = "/" class = "hey">Kevin Arellano</a>            

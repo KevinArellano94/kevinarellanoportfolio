@@ -1,11 +1,8 @@
 function Footer() {
-    const navStyle = {
-        color: 'black'
-    };
-
+    new Date().getFullYear();
     return (
         <div class="footer">
-            <h1>Footer</h1>
+            <p>© {(new Date().getFullYear())} Kevin Arellano's Portfolio</p>
         </div>
     )
 }
