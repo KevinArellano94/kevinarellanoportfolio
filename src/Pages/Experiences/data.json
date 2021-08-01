@@ -15,16 +15,16 @@
     },
     {
         "id": 3,
-        "position": "Technical Support Specialist",
+        "position": "Technical Support Specialist   ",
         "company": "DecoNetwork",
         "date": "Dec 2020 - Jul 2021",
-        "description": "Specialized in commercial tablet support for major corporations; AA, EHI, AHold, and Delta Airlines."
+        "description": "Troubleshoot technical issues on client’s site via Ruby on Rails platform."
     },
     {
         "id": 4,
         "position": "PureIntegration",
         "company": "Ops Engineer",
         "date": "Jul 2021 - Present",
-        "description": "Specialized in commercial tablet support for major corporations; AA, EHI, AHold, and Delta Airlines."
+        "description": "Analize API's runtime and integrate live monitoring."
     }
 ]
