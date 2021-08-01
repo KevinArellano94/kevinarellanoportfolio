@@ -28,7 +28,10 @@ function NavigationBar()
                 </Link>
             </ul>
 
-            <a href = "/" class = "hey">Kevin Arellano</a>            
+            <ul>
+                <li><a href = "/" class = "hey">Kevin Arellano</a></li>
+            </ul>
+            
         </nav>
     )
 }

@@ -3,28 +3,28 @@
         "id": 1,
         "position": "Software Developer",
         "company": "PBD Worldwide",
-        "date": "November 2015 - June 2020",
+        "date": "Nov 2015 - Jun 2020",
         "description": "Installation, configuration and deployment of ConnectShip Shipping Application."
     },
     {
         "id": 2,
         "position": "Technical Support Specialist",
         "company": "Stratix Corporation",
-        "date": "June 2020 - November 2020",
+        "date": "Jun 2020 - Nov 2020",
         "description": "Specialized in commercial tablet support for major corporations; AA, EHI, AHold, and Delta Airlines."
     },
     {
-        "id": 2,
+        "id": 3,
         "position": "Technical Support Specialist",
-        "company": "Stratix Corporation",
-        "date": "June 2020 - November 2020",
+        "company": "DecoNetwork",
+        "date": "Dec 2020 - Jul 2021",
         "description": "Specialized in commercial tablet support for major corporations; AA, EHI, AHold, and Delta Airlines."
     },
     {
-        "id": 2,
-        "position": "Technical Support Specialist",
-        "company": "Stratix Corporation",
-        "date": "June 2020 - November 2020",
+        "id": 4,
+        "position": "PureIntegration",
+        "company": "Ops Engineer",
+        "date": "Jul 2021 - Present",
         "description": "Specialized in commercial tablet support for major corporations; AA, EHI, AHold, and Delta Airlines."
     }
 ]
