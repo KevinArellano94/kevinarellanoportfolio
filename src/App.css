@@ -84,8 +84,8 @@ nav ul li a:hover
   justify-content: space-around;
   align-items: center;
   position: absolute;
-  left: 50%;
-  top: 50%;
+  left: 45%;
+  top: 47%;
   transform: translate(-50%,-50%);
 }
 
@@ -115,6 +115,25 @@ nav ul li a:hover
 }
 
 .main-text p
+{
+  color:#747474;
+}
+
+.experience-text
+{
+  margin-top: 45%;
+  margin-left: 15%;
+}
+
+.experience-text h1
+{
+  font-size: 3.5rem;
+  color:#1c3548;
+  margin:0px 0px 10px 0px;
+  line-height: 60px;
+}
+
+.experience-text p
 {
   color:#747474;
 }
@@ -285,6 +304,17 @@ top:50%;
 transform:translate(-50%,-50%);
 
 }
+
+.experience-text{
+  width:80%;
+  position:absolute;
+  left:40%;
+  top:50%;
+  margin-top: 235%;
+  transform:translate(-50%,-50%);
+  
+  }
+
 #contact img{
 height:200px;
 }

@@ -4,27 +4,70 @@
         "position": "Software Developer",
         "company": "PBD Worldwide",
         "date": "Nov 2015 - Jun 2020",
-        "description": "Installation, configuration and deployment of ConnectShip Shipping Application."
+        "description": [
+            {
+                "a": "● Installation, configuration and deployment of ConnectShip Shipping Application.",
+                "b": "● Engineered and programmed in Visual Basic Script for both automation and shipping structure.",
+                "c": "● Implemented XML Client email template management along with migration.",
+                "d": "● Lead development of QuickBase Application per request.",
+                "e": "● Configured Windows Administrator User setup for new hires.",
+                "f": "● Inspection of Software installation and Hardware integrity.",
+                "g": "● Assisted 100+ Clients as translator, teaching and developing efficiency.",
+                "h": "● SmartReports integration and app creation.",
+                "i": "● EasyAccess implementation and trainer."
+            }
+        ]
     },
     {
         "id": 2,
         "position": "Technical Support Specialist",
         "company": "Stratix Corporation",
         "date": "Jun 2020 - Nov 2020",
-        "description": "Specialized in commercial tablet support for major corporations; AA, EHI, AHold, and Delta Airlines."
+        "description": [
+            {
+                "a": "● Specialized in commercial tablet support for major corporations; AA, EHI, AHold, and Delta Airlines.",
+                "b": "● Engineered and programmed in Visual Basic Script for both automation and shipping structure.",
+                "c": "● Managed Mobicontrol software utilization for device setup and configuration.",
+                "d": "● Maintained uploaded technical files for flight attendants and compiled downloaded log files for debugging.",
+                "e": "● Integrated ServiceNow platform as a ticketing system.",
+                "f": "● Validated iTrac365 database for device specification lookup.",
+                "g": "● Operated Workspace ONE VMware platform for Delta specific devices.",
+                "h": "● Verified Runbooks for knowledge base documentation for most updated processes and solutions.",
+                "i": "● Tested Five9 phone application with daily usage.",
+                "j": "● Authenticated AnyConnect VPN support specialist."
+            }
+        ]
     },
     {
         "id": 3,
-        "position": "Technical Support Specialist   ",
+        "position": "Technical Support Specialist",
         "company": "DecoNetwork",
         "date": "Dec 2020 - Jul 2021",
-        "description": "Troubleshoot technical issues on client’s site via Ruby on Rails platform."
+        "description": [
+            {
+                "a": "● Troubleshoot technical issues on client’s site via Ruby on Rails platform.",
+                "b": "● Zendesk as a ticketing system for all documentation.",
+                "c": "● Utilize Atlassian platform for Jira custom programming development integration.",
+                "d": "● Version control and platform update testing before worldwide push.",
+                "e": "● Help documentation/video management.",
+                "f": "● International multiple language support."
+                
+            }
+        ]
     },
     {
         "id": 4,
-        "position": "PureIntegration",
-        "company": "Ops Engineer",
+        "position": "Operations Engineer",
+        "company": "PureIntegration",
         "date": "Jul 2021 - Present",
-        "description": "Analize API's runtime and integrate live monitoring."
+        "description": [
+            {
+                "a": "● API administration, analytic and monitoring for a $205+ billion nationwide company.",
+                "b": "● ElasticSearch developer for 6 main API real-time reporting and logging.",
+                "c": "● CatchPoint synthetic monitoring integration.",
+                "d": "● Kanban daily usage using Agile implementation.",
+                "e": "● AWS, Lambda and Akamai environment software development."
+            }
+        ]
     }
 ]
