@@ -1,3 +1,6 @@
+// React, useEffect
+import React, { useEffect } from "react";
+
 // Routing
 import {
   BrowserRouter as Router,
@@ -19,8 +22,17 @@ import Home from "./Pages/Home/index.js";
 import Experiences from "./Pages/Experiences/index.js";
 import PageNotFound from "./Pages/404/index.js";
 
+import ReactGa from "react-ga";
+
 function App()
 {
+  useEffect(() =>
+  {
+    ReactGa.initialize("G-VL66B4FF55")
+
+    ReactGa.pageview("/")
+  }, [])
+  
   return (
     <div>
         <Router>
