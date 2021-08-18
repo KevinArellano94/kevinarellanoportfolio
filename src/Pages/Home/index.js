@@ -17,7 +17,6 @@ function Home()
     return (
       <div className = "content">
         <div className = "main-text">
-          2021
               {
                 data.map((post, index) =>
                     <div key={index}>
