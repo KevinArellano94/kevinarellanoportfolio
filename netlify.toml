@@ -1,0 +1,6 @@
+[build]
+edge_functions = "my-custom-directory"
+
+[[edge_functions]]
+path = "/test"
+function = "hello"
